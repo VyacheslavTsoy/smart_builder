@@ -123,17 +123,19 @@ header h1 a {
 	border-bottom:3px solid #091949;
 }
 .header_top__middle{
-	width:246px;
+	width:270px;
 	padding:55px 0 0 20px;
 }
 .header_top__left{
 	width:418px;
 	padding:55px 0px 0 110px;
 	text-shadow: 1px 1px 2px white;
+	font-size:16px;
+	line-height:20px;
 }
 .header_top__right{
 	width:146px;
-	padding:50px 0 0 45px;
+	padding:50px 0 0 20px;
 }
 .header__bottom{
 	height:67px;
@@ -143,23 +145,28 @@ header h1 a {
 	bottom:23px;
 	left:18px;
 }
-
+.seach{
+	padding:17px 17px 0 0;
+}
+input[type="seach"]{
+	background:url(../images/17.png);
+	width:216px;
+	height:34px;
+	-webkit-appearance: none;
+	border:none;
+}
 .header__bottom{
 	padding-left:110px;
 }
 .header__bottom nav li a {
 	font:16px Arial;
 	color:#fff;
-	padding:25px 9px 0 9px;
+	padding:22px 8px 0 8px;
 }
 .header__bottom li{
 	background:url(../images/14.png) 0 0 no-repeat;
 	background-position:0 10px;
 }
-
-	
-}
-
 .let_size1{
 	font-size:20px;
 }
@@ -170,10 +177,6 @@ header h1 a {
 	font-size:16px;
 	padding-left:130px;
 	margin-top:-5px;
-}
-.let_size4{
-	font-size:16px;
-	line-height:20px;
 }
 
 /*=====================> Content ========================*/
@@ -246,8 +249,8 @@ p {margin-bottom:18px}
 }
 .list1  img{
 	position:absolute;
-	top:0;
-	left:5;
+	top:0px;
+
 
 }
 .list1 li{
