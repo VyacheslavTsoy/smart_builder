@@ -245,6 +245,8 @@ padding:24px 40px 26px 20px;
 }
 .border_bottom{
 	border-bottom:1px dashed #fff;
+}
+.pd_bottom{
 	padding-bottom:15px;
 }
 .link_underline{
@@ -267,7 +269,7 @@ p {margin-bottom:18px}
 }
 .list1  img{
 	position:absolute;
-	top:0px;
+	top:-4px;
 
 
 }
@@ -305,7 +307,7 @@ p {margin-bottom:18px}
 .list2{}
 .list2 li{
   background:url(../images/15.png) no-repeat;
-  padding:0 0 13px 20px;
+  padding:0 0 12px 20px;
 }
 .list2 a{}
 
@@ -330,7 +332,10 @@ h4{
     font-size:18px;
     line-height:18px;
     color:#fff;
-    padding: 20px 0 15px 53px;
+    padding: 32px 0 15px 53px;
+}
+.pd_top{
+	padding-top:20px;
 }
 .title1{
    background:url(../images/1.png)0 20px no-repeat;
@@ -340,10 +345,10 @@ h4{
 	 background:url(../images/2.png)0 15px no-repeat;
 }
 .title3{
-	 background:url(../images/4.png)0 10px no-repeat;
+	 background:url(../images/3.png)0 10px no-repeat;
 }
 .title4{
-	 background:url(../images/3.png)0 10px no-repeat;
+	 background:url(../images/4.png)0 10px no-repeat;
 }
 
 .text{
