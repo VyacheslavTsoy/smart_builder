@@ -107,7 +107,7 @@ a {
 
 /*======================> Header <======================*/
 
-header {}
+header {position: relative;}
 header h1{}
 header h1 a {
   display:block;
@@ -118,38 +118,48 @@ header h1 a {
   text-indent:-9999px;
 }
 .header__top{
-	height:113px;
+	height:109px;
 	background:url(../images/1.jpg);
 	border-bottom:3px solid #091949;
 }
 .header_top__middle{
-	width:248px;
-	padding:55px 0 0 20px;
-	font-style:oblique;
-	
+	width:251px;
+  letter-spacing: -1px;
+	padding:42px 0 0 21px;
+	font-style: italic;
+  text-align: right;
+  word-spacing: -3px;
+  background: url("../images/16.png") 27px 46px no-repeat;	
 }
-
+  .header_top__middle span{
+    display: inline-block;
+    padding-top: 10px;
+  }
+  .header_top__middle .let_size1{
+    margin-bottom: -3px;
+    letter-spacing: -2px;
+  }
 
 .header_top__left{
-	width:418px;
-	padding:55px 0px 0 110px;
-	text-shadow: 1px 1px 2px white;
-	font-size:16px;
-	line-height:20px;
-	font-style:oblique;
-	
+	width: 418px;
+  padding: 53px 0px 0 110px;
+  text-shadow: 1px 1px 2px white;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;	
 }
+
 .header_top__right{
-	width:146px;
-	padding:50px 0 0 35px;
+	width:150px;
+	padding:48px 0 0 34px;
 }
 .header__bottom{
 	height:67px;
 	background:url(../images/2.jpg);
 }
 .logo{
-	bottom:23px;
-	left:18px;
+  top: 7px;
+	left:17px;
 }
 .seach{
 	padding:17px 17px 0 0;
@@ -174,15 +184,16 @@ input[type="seach"]{
 	background-position:0 10px;
 }
 .let_size1{
-	font-size:20px;
+  font-size: 32px;
+  line-height: 36px;
 	letter-spacing:-1px;
 }
 .let_size2{
-	font-size:30px;
+	font-size:20px;
+  line-height: 24px;
 }
 .let_size3{
 	font-size:16px;
-	padding-left:130px;
 	margin-top:-5px;
 }
 
