@@ -123,19 +123,25 @@ header h1 a {
 	border-bottom:3px solid #091949;
 }
 .header_top__middle{
-	width:270px;
+	width:248px;
 	padding:55px 0 0 20px;
+	font-style:oblique;
+	
 }
+
+
 .header_top__left{
 	width:418px;
 	padding:55px 0px 0 110px;
 	text-shadow: 1px 1px 2px white;
 	font-size:16px;
 	line-height:20px;
+	font-style:oblique;
+	
 }
 .header_top__right{
 	width:146px;
-	padding:50px 0 0 20px;
+	padding:50px 0 0 35px;
 }
 .header__bottom{
 	height:67px;
@@ -169,6 +175,7 @@ input[type="seach"]{
 }
 .let_size1{
 	font-size:20px;
+	letter-spacing:-1px;
 }
 .let_size2{
 	font-size:30px;
@@ -319,7 +326,7 @@ h4{
 }
 
 .title2{
-	 background:url(../images/2.png)0 10px no-repeat;
+	 background:url(../images/2.png)0 15px no-repeat;
 }
 .title3{
 	 background:url(../images/4.png)0 10px no-repeat;
