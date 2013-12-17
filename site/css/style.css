@@ -224,14 +224,17 @@ input[type="seach"]{
 	display:inline-block;
 	float:left;
 	border-right:1px dashed #78c3d6;
+	border-bottom:1px solid #cccccc;
+	border-top:1px solid #e7e7e7;
 }
 .content_box nav li a {
 	display:block:
 	position:relative;
 	background:#f5f5f5;
 	color:#565656;
-	padding:16px 15px 12px 15px;
+	padding:16px 15px 11px 15px;
 	font-size:12px;
+	border-radius:5px 5px 0 0;
 	
 }
 .container_box1{
@@ -529,20 +532,19 @@ a:hover{
 
 /*================================>> Footer <<========================================*/
 footer {
-  padding:22px 0 26px;
-  height:42px;
-  background:#e6e7ec
+	font:11px Verdana;
+	text-align:center;
+	border-top:2px solid #c7c8cc;
+	padding:20px 0 34px 0;
+	color:#000;
 }
-footer .social{
-  overflow:hidden;
+footer  a{
+  text-decoration:underline;
+	color:#000;
 }
-footer .social a{
-  display:block;
-  float:left;
-  width:32px;
-  height:32px;
-  overflow:hidden;
-  margin-left:8px;
+.footer_img{
+	float:right;
+	margin-top:-40px;
 }
 footer .social a:first-child{margin: 0 0 0 0;}
 footer .social a:hover img{
