@@ -71,7 +71,13 @@ background:#8bc734;
 .black{
 	background:#1d1d1e;
 }
+.letter_color{
+	color:#7695c6;
+}
 /*----------------------> Links And buttons <------------------*/
+.fn_weight{
+	font-weight:bold;
+}
 a {
   color:#;
   outline:none;
@@ -131,29 +137,29 @@ header h1 a {
 }
 .header_top__middle{
 	width:251px;
-  letter-spacing: -1px;
+	letter-spacing:-1px;
 	padding:42px 0 0 21px;
 	font-style: italic;
-  text-align: right;
-  word-spacing: -3px;
-  background: url("../images/16.png") 27px 46px no-repeat;	
+	text-align: right;
+	word-spacing: -3px;
+	background: url("../images/16.png") 27px 46px no-repeat;	
 }
-  .header_top__middle span{
+ .header_top__middle span{
     display: inline-block;
     padding-top: 10px;
-  }
-  .header_top__middle .let_size1{
+}
+ .header_top__middle .let_size1{
     margin-bottom: -3px;
     letter-spacing: -2px;
-  }
+}
 
 .header_top__left{
 	width: 418px;
-  padding: 53px 0px 0 110px;
-  text-shadow: 1px 1px 2px white;
-  font-size: 16px;
-  line-height: 23px;
-  font-style: italic;	
+	padding: 53px 0px 0 110px;
+	text-shadow: 1px 1px 2px white;
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;	
 }
 
 .header_top__right{
@@ -264,9 +270,8 @@ input[type="seach"]{
 .container_box2{
 	background:#0081b6;
 	border-radius:10px;
-
 	width:380px;
-	padding:24px 40px 26px 20px;
+	padding:24px 40px 16px 20px;
 }
 .social_icons{
 	padding:20px 0 14px 0;
@@ -286,6 +291,19 @@ input[type="seach"]{
 .pd_bottom{
 	padding-bottom:20px;
 }
+.content_box table{
+	width:100%;
+	font:12px Verdana;
+	line-height:18px;
+	
+}
+.content_box table tr {
+	border-bottom:1px solid #cccccc !important;
+	border-top:1px solid #cccccc !important;
+	padding:10px 0 8px 10px;
+}
+
+	
 
 /*=====================> Paragraphs ========================*/
 
@@ -298,6 +316,7 @@ p {margin-bottom:15px;}
 .p6{ margin-bottom:55px;}
 .p7{ margin-bottom:30px;}
 .p8{ margin-bottom:5px;}
+.p9{ margin-bottom:46px !important;}
 /*=====================> Lists ========================*/
 .list1{
 
@@ -349,6 +368,7 @@ p {margin-bottom:15px;}
   background:url(../images/15.png) no-repeat;
   padding-left:20px;
 }
+
 .list3 a{}
 
 /*=====================> Titles ========================*/
