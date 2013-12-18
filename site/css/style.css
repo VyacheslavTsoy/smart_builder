@@ -188,7 +188,7 @@ header h1 a {
 }
 .logo{
 <<<<<<< HEAD
-  top: 8px;
+	top: 8px;
 	left:18px;
 =======
 	top: 7px;
@@ -326,24 +326,7 @@ header h1 a {
 .breadcrump{
   padding: 5px 0 11px;
 }
-
-.content_box nav li{
-	display:inline-block;
-	float:left;
-	border-right:1px dashed #78c3d6;
-	border-bottom:1px solid #cccccc;
-	border-top:1px solid #e7e7e7;
-}
-.content_box nav li a {
-	display:block;
-	position:relative;
-	background:#f5f5f5;
-	color:#565656;
-	padding:10px 15px 7px 15px;
-	font-size:12px;
-	border-radius:5px 5px 0 0;
-}
-.content_box p a {
+.list4_item .img {
 	padding-left:20px;
 }
 .content_box span  {
@@ -355,7 +338,7 @@ header h1 a {
 	border-radius:10px;
 	width:246px; 
 	margin:20px -20px 30px 0px;
-	padding:20px 32px 22px 18px;
+	padding:20px 32px 0px 18px;
 }
 .container_box1 li {
 	padding-bottom:25px;
@@ -395,7 +378,9 @@ header h1 a {
 	border-top:1px solid #cccccc !important;
 	padding:10px 0 8px 10px;
 }
-
+.mr_sitebar{
+	margin-right:-10px;
+}
 	
 
 /*=====================> Paragraphs ========================*/
@@ -417,6 +402,7 @@ p {margin-bottom:15px;}
 .list1  img{
 	position:absolute;
 	top:-4px;
+	left:55px;
 }
 .list1 li{
 	display:inline-block;
@@ -452,7 +438,7 @@ p {margin-bottom:15px;}
   padding:0 0 12px 20px;
 }
 .img{
-	background:url(../images/15.png) no-repeat;
+	background:url(../images/15.png)0 3px no-repeat;
 }
 .list2 a{}
 
@@ -673,12 +659,13 @@ footer {
 	color:#000;
 }
 footer  a{
-  text-decoration:underline;
+	text-decoration:underline;
 	color:#000;
 }
+
 .footer_img{
-	float:right;
-	margin-top:-40px;
+	right:0;
+	top:20px;
 }
 footer .social a:first-child{margin: 0 0 0 0;}
 footer .social a:hover img{
