@@ -26,6 +26,7 @@ body {
 .main{margin:0 auto;width: 996px;}
 .it{font-style:italic;}
 .let{letter-spacing:-1.5px;}
+.let1{letter-spacing:-0.5px;}
 
 /*----------------------> Indents Zero <------------------*/
 
@@ -72,7 +73,13 @@ background:#8bc734;
 .black{
 	background:#1d1d1e;
 }
+.letter_color{
+	color:#7695c6;
+}
 /*----------------------> Links And buttons <------------------*/
+.fn_weight{
+	font-weight:bold;
+}
 a {
   color:#000000;
   outline:none;
@@ -92,10 +99,21 @@ a:hover{
 	border-bottom:1px dashed #78c3d6;
 	margin-left:100px;
 }
+<<<<<<< HEAD
   .link_style:hover{
     color: #fff;
     border-color: #fff;
   }
+=======
+.link_style1{
+	font:14px Verdana;
+	text-decoration:underline;
+	color:#2162af;
+}
+.link_style2{
+	font:10px Verdana;
+}
+>>>>>>> 6daa4c7e03565c5eb6b436e992001ee12101c9c9
 .button{
   display:inline-block;
   padding:0 0 0 0;
@@ -110,8 +128,6 @@ a:hover{
 }
 .link_m_top{
 	margin-top:46px;
-	text-decoration:underline;
-	color:#2162af;
 }
 .content_box a:hover{
   color: #091949;
@@ -136,29 +152,29 @@ header h1 a {
 }
 .header_top__middle{
 	width:251px;
-  letter-spacing: -1px;
+	letter-spacing:-1px;
 	padding:42px 0 0 21px;
 	font-style: italic;
-  text-align: right;
-  word-spacing: -3px;
-  background: url("../images/16.png") 27px 46px no-repeat;	
+	text-align: right;
+	word-spacing: -3px;
+	background: url("../images/16.png") 27px 46px no-repeat;	
 }
-  .header_top__middle span{
+ .header_top__middle span{
     display: inline-block;
     padding-top: 10px;
-  }
-  .header_top__middle .let_size1{
+}
+ .header_top__middle .let_size1{
     margin-bottom: -3px;
     letter-spacing: -2px;
-  }
+}
 
 .header_top__left{
 	width: 418px;
-  padding: 53px 0px 0 110px;
-  text-shadow: 1px 1px 2px white;
-  font-size: 16px;
-  line-height: 23px;
-  font-style: italic;	
+	padding: 53px 0px 0 110px;
+	text-shadow: 1px 1px 2px white;
+	font-size: 16px;
+	line-height: 23px;
+	font-style: italic;	
 }
 
 .header_top__right{
@@ -170,8 +186,13 @@ header h1 a {
 	background:url(../images/2.jpg);
 }
 .logo{
+<<<<<<< HEAD
   top: 8px;
 	left:18px;
+=======
+	top: 7px;
+	left:17px;
+>>>>>>> 6daa4c7e03565c5eb6b436e992001ee12101c9c9
 }
 .seach{
 	padding:17px 17px 0 0;
@@ -226,13 +247,13 @@ header h1 a {
   color: #000;
 }
 .let_size1{
-  font-size: 32px;
-  line-height: 36px;
+	font-size: 32px;
+	line-height: 36px;
 	letter-spacing:-1px;
 }
 .let_size2{
 	font-size:20px;
-  line-height: 24px;
+	line-height: 24px;
 }
 .let_size3{
 	font-size:16px;
@@ -241,9 +262,12 @@ header h1 a {
 
 /*=====================> Content ========================*/
 #content {
-  padding:0px 0px 0px 0px;
-  min-height: 1500px;
-  background:#1b599f;
+	padding:0px 0px 0px 0px;
+	min-height: 1500px;
+	background:#1b599f;
+}
+.cont_pad{
+	padding:0 0 0 0 !important;
 }
 .cont_pad{padding:0 0 0 0 !important;}
 
@@ -287,23 +311,21 @@ header h1 a {
     padding: 25px 0;
   }
 .sitebar{
-  width:180px;
-  color:#fff;
-  border-top:1px solid #fff;
+	width:180px;
+	color:#fff;
+	border-top:1px solid #fff;
 }
 .sitebar__box{
 	padding:21px 20px 0 20px;
 }
 .content_box{
 	background:#ffffff;
-	padding:0 30px 45px 30px;
+	padding:10px 30px 46px 30px;
 }
 .breadcrump{
   padding: 5px 0 11px;
 }
-.content_box nav{
-	padding:17px 0 27px 0;
-}
+
 .content_box nav li{
 	display:inline-block;
 	float:left;
@@ -312,31 +334,36 @@ header h1 a {
 	border-top:1px solid #e7e7e7;
 }
 .content_box nav li a {
-	display:block:
+	display:block;
 	position:relative;
 	background:#f5f5f5;
 	color:#565656;
 	padding:10px 15px 7px 15px;
 	font-size:12px;
 	border-radius:5px 5px 0 0;
-	
+}
+.content_box p a {
+	padding-left:20px;
+}
+.content_box span  {
+	display:inline-block;
+	margin-bottom:5px;
 }
 .container_box1{
-background:#dd6717;
-border-radius:10px;
-width:246px; 
-margin:30px -20px 30px 0px;
-padding:20px 32px 22px 18px;
+	background:#dd6717;
+	border-radius:10px;
+	width:246px; 
+	margin:20px -20px 30px 0px;
+	padding:20px 32px 22px 18px;
 }
 .container_box1 li {
-	padding-bottom:30px;
+	padding-bottom:25px;
 }
 .container_box2{
-background:#0081b6;
-border-radius:10px;
-margin: 20px 0px 30px 0;
-width:380px;
-padding:24px 40px 26px 20px;
+	background:#0081b6;
+	border-radius:10px;
+	width:380px;
+	padding:24px 40px 16px 20px;
 }
 .social_icons{
 	padding:20px 0 14px 0;
@@ -350,24 +377,38 @@ padding:24px 40px 26px 20px;
 .border_bottom{
 	border-bottom:1px dashed #fff;
 }
-
+.br_none{
+	border-right:none !important;
+}
 .pd_bottom{
 	padding-bottom:20px;
 }
-.link_underline{
-	text-decoration:underline;
-	font-size:10px;
+.content_box table{
+	width:100%;
+	font:12px Verdana;
+	line-height:18px;
+	
 }
+.content_box table tr {
+	border-bottom:1px solid #cccccc !important;
+	border-top:1px solid #cccccc !important;
+	padding:10px 0 8px 10px;
+}
+
+	
+
 /*=====================> Paragraphs ========================*/
 
-p {margin-bottom:18px}
-.p2{ margin-bottom:0;}
-.p3{ margin-bottom:0;}
-.p4{ margin-bottom:0;}
-.p5{ margin-bottom:0;}
-.p6{ margin-bottom:0;}
-
-
+p {margin-bottom:15px;}
+.p1{ margin-bottom:54px;}
+.p2{ margin-bottom:66px;}
+.p3{ margin-bottom:50px;}
+.p4{ margin-bottom:10px;}
+.p5{ margin-bottom:18px;}
+.p6{ margin-bottom:55px;}
+.p7{ margin-bottom:30px;}
+.p8{ margin-bottom:5px;}
+.p9{ margin-bottom:46px !important;}
 /*=====================> Lists ========================*/
 .list1{
 
@@ -375,20 +416,16 @@ p {margin-bottom:18px}
 .list1  img{
 	position:absolute;
 	top:-4px;
-
-
 }
 .list1 li{
 	display:inline-block;
 	margin-bottom:24px;
-
 }
 .list1 a{
 	position:relative;
 	padding:8px 0 5px;
 	text-align:left;
 	font:18px Arial;
-	
 }
 
 .list1_item, .list1_link{
@@ -411,8 +448,10 @@ p {margin-bottom:18px}
 }
 .list2{}
 .list2 li{
-  background:url(../images/15.png) no-repeat;
   padding:0 0 12px 20px;
+}
+.img{
+	background:url(../images/15.png) no-repeat;
 }
 .list2 a{}
 
@@ -421,12 +460,14 @@ p {margin-bottom:18px}
   background:url(../images/15.png) no-repeat;
   padding-left:20px;
 }
+
 .list3 a{}
 
 /*=====================> Titles ========================*/
 h1{
 	font:18px Verdana;
 	line-height:18px;
+	padding-bottom:18px;
 }
 h2,h3,h4{
   font-weight:normal;
@@ -434,7 +475,11 @@ h2,h3,h4{
 h3{
 	font:14px Verdana;
 	line-height:18px;
-	padding-bottom:20px;
+	color:#fff;
+	font-weight:bold;
+}
+ h3{
+	padding-bottom:10px;
 }
 h4{
 	font-family:Arial, sans-serif;
@@ -447,7 +492,7 @@ h4{
 	padding-top:20px;
 }
 .title1{
-   background:url(../images/1.png)0 20px no-repeat;
+	background:url(../images/1.png)0 20px no-repeat;
 }
 
 .title2{
@@ -463,10 +508,10 @@ h4{
 }
 
 .text{
-  font:12px Verdana;
-  line-height:14px;
-  color:#fff;
-  font-style:Regular;
+	font:12px Verdana;
+	line-height:14px;
+	color:#fff;
+	font-style:Regular;
 }
 .title2.icon1{
 
