@@ -187,13 +187,8 @@ header h1 a {
 	background:url(../images/2.jpg);
 }
 .logo{
-<<<<<<< HEAD
-	top: 8px;
+	top: 10px;
 	left:18px;
-=======
-	top: 7px;
-	left:17px;
->>>>>>> 6daa4c7e03565c5eb6b436e992001ee12101c9c9
 }
 .seach{
 	padding:17px 17px 0 0;
@@ -304,10 +299,10 @@ header h1 a {
         height: 5px;
         margin: 0 0 0 -5px;
         content: "";
-      }
-      .ui-tabs-nav li.ui-state-active a{
+	}
+		.ui-tabs-nav li.ui-state-active a{
         color: #091949;
-      }
+	}
   .ui-tabs-panel{
     padding: 25px 0;
   }
@@ -321,10 +316,10 @@ header h1 a {
 }
 .content_box{
 	background:#ffffff;
-	padding:10px 30px 46px 30px;
+	padding:5px 30px 46px 30px;
 }
 .breadcrump{
-  padding: 5px 0 11px;
+  padding: 5px 0 5px;
 }
 .list4_item .img {
 	padding-left:20px;
@@ -365,7 +360,7 @@ header h1 a {
 	border-right:none !important;
 }
 .pd_bottom{
-	padding-bottom:20px;
+	padding-bottom:15px;
 }
 .content_box table{
 	width:100%;
@@ -454,7 +449,6 @@ p {margin-bottom:15px;}
 h1{
 	font:18px Verdana;
 	line-height:18px;
-	padding-bottom:18px;
 }
 h2,h3,h4{
   font-weight:normal;
