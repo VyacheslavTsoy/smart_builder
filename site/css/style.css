@@ -106,7 +106,6 @@ a:hover{
     border-color: #fff;
 }
 .link_style1{
-	font:14px Verdana;
 	text-decoration:underline;
 	color:#2162af;
 }
@@ -478,7 +477,9 @@ h4{
     font-size:18px;
     line-height:18px;
     color:#fff;
-    padding: 32px 0 15px 53px;
+}
+h4.pad1{
+	padding: 32px 0 15px 53px;
 }
 .pd_top{
 	padding-top:20px;
