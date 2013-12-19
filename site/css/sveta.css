@@ -84,3 +84,19 @@
 .tabs-2__title1,.tabs-2__title2,.tabs-2__title3{
 	line-height:24px;
 }
+.gallery{
+	width:228px;
+}
+.gallery__list_item{
+	width:704px;
+	padding-left:12px;
+}
+.gallery_img{
+	display:inline-block;
+	padding:21px 105px 21px 105px;
+	border:5px solid #fafafa;
+	background:url(../images/gallery_1.png)no-repeat;
+}
+.gallery_img:hover{
+	border:5px solid #78c3d6;
+}
