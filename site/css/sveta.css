@@ -122,3 +122,36 @@ h5.gallery_title a:hover{
 	text-decoration:none;
 	color:#2162af;
 }
+/*news*/
+.content_news{
+	border-top:1px solid #cccccc;
+	padding:20px 0 15px 0;
+}
+.content_news_last{
+	border-bottom:1px solid #cccccc;
+}
+.container_news{
+	padding-left:18px;
+}
+.container_img{
+	width:130px;
+	padding-top:3px;
+	
+}
+ h1.news_title1{
+	padding-bottom:20px;
+}
+.link_news_item{
+	padding-left:10px;
+	background:url(../images/news_10.png)0 5px no-repeat;
+}
+.container_news_list_item2{
+	padding:10px 0 2px 0;
+}
+.container_news_list_item1{
+	color:#78c3d6;;
+	
+}
+.container_news_list_item3{
+	padding:3px 3px;
+}
