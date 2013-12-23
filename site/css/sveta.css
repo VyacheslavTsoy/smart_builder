@@ -127,7 +127,7 @@ h5.gallery_title a:hover{
 	border-top:1px solid #cccccc;
 	padding:20px 0 15px 0;
 }
-.content_news_last{
+.content_last{
 	border-bottom:1px solid #cccccc;
 }
 .container_news{
@@ -225,4 +225,49 @@ h1.singl_news_title1{
 }
 h1.questions_title1{
 	padding-bottom:25px;
+}
+/*Отзывы и предложения*/
+.testimonials_box{
+	border-top:1px solid #cccccc;
+	padding-top:10px;
+}
+.testimonials_box_img{
+	width:62px;
+	margin-right:15px;
+}
+.testimonials_box_quote{
+	background:url(../images/single_news_3.png) no-repeat;
+	padding: 5px 0 20px 25px;
+}
+.fn_style6{
+	font:14px Verdana;
+	line-height:18px;
+}
+.testimonials_title1{
+	padding-bottom:20px;
+}
+/*awards Награды*/
+.awards_box{
+	border-top:1px solid #cccccc;
+	padding:20px 0 20px 0;
+}
+.awards_box_text{
+	padding-left:18px;
+}
+/*Customers*/
+.customers_list_item_img{
+	padding-left:60px;
+}
+.customers_list p{
+	margin:6px 0 26px 0;
+}
+h3.customers_title1{
+	color:#000;
+	padding-bottom:25px;
+}
+h5.customers_title2{
+	padding-bottom:25px;
+}
+.p_left_first{
+	padding-left:15px;
 }
