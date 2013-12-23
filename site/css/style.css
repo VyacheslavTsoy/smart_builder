@@ -267,7 +267,8 @@ header h1 a {
 
   .tabs_navigation{
     border-bottom: 1px solid #cccccc;
-  }
+}
+
     .ui-tabs-nav li{
       float: left;
       border-radius: 5px 5px 0 0;

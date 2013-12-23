@@ -194,3 +194,35 @@ h1.singl_news_title1{
 .fn_style4{
 	color:#78c3d6;
 }
+/*О нас*/
+
+.container_smart_about_img{
+	width:304px;
+	padding:0 0 30px 20px;
+}
+.container_smart_about{
+	height:100%;
+}
+.tabs_list.ui-tabs-nav li:first-child{width: 146px;}
+.smart_about_title1{
+	padding-bottom:20px;
+}
+/*часто задаемые вопросы*/
+.questions_title2{
+	padding:5px 0 10px 10px;
+	background:#1b599f;
+	color:#fff;
+	height:33px;
+}
+.tabs_questions_list.ui-tabs-nav li:first-child{width: 154px;}
+.container_questions p{
+	padding:14px 0 10px 40px;
+
+}
+.fn_style5{
+	font:12px Verdana;
+	line-height:18px;
+}
+h1.questions_title1{
+	padding-bottom:25px;
+}
