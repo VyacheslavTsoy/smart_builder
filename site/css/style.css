@@ -258,7 +258,7 @@ header h1 a {
 #content {
 	padding:0px 0px 0px 0px;
 	min-height: 1500px;
-	background:#1b599f;
+	background:url("../images/main_1.png") repeat-y;
 }
 .cont_pad{
 	padding:0 0 0 0 !important;
@@ -401,6 +401,7 @@ p {margin-bottom:15px;}
 .p7{ margin-bottom:30px;}
 .p8{ margin-bottom:5px;}
 .p9{ margin-bottom:46px !important;}
+
 /*=====================> Lists ========================*/
 .list1{
 
@@ -482,6 +483,7 @@ h4{
 h4.pad1{
 	padding: 32px 0 15px 53px;
 }
+
 .pd_top{
 	padding-top:20px;
 }
