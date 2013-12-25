@@ -88,7 +88,7 @@ a {
   cursor:pointer;
 }
 a:hover{
-  color: #2162af;
+  color:#2162af;
 }
  .link_style:hover a{
   color:#fff;
@@ -112,7 +112,9 @@ a:hover{
 	font:10px Verdana;
 	color:#2162af;
 }
-
+.link_style8{
+	color:#2162af;
+}
 .button{
   display:inline-block;
   padding:0 0 0 0;

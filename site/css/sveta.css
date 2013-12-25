@@ -326,9 +326,6 @@ h5.customers_title2{
 .container_products_list_item: before{
 	left:0;
 }
-
-
-
 .tabs_product_list.ui-tabs-nav li:first-child{
 	width:205px;
 }
