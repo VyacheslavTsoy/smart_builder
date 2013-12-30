@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="ru"><!--<![endif]>-->
 <head>
     <title>Home</title>
     <meta name = "format-detection" content = "telephone=no" />
@@ -7,8 +9,8 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jquery.fancybox-1.3.4.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.1.min.js"></script>
 	 <script type="text/javascript" src="js/tabs.js"></script>
 	 <script src="js/script.js"></script>
 	 <script type="text/javascript">
@@ -16,16 +18,8 @@
 			$( "#tabs" ).tabs();
 		});
 	 </script>
-	<!--[if lt IE 8]>
-   <div style=' clear: both; text-align:center; position: relative;'>
-     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-    </a>
-  </div>
-<![endif]-->
     <!--[if lt IE 9]>
-   	<script type="text/javascript" src="js/html5.js"></script>
-    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+   		<script type="text/javascript" src="js/html5.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -40,23 +34,22 @@
 					<div class="let_size1"><span class="let_size2">+ 8 495</span> 984 25 37</div>
 					<span class="let_size3">sb@eurotitan.ru</span>
 				</div>
-				<div class="header_top__right f_left"href="/"><img src="images/5.png" alt="Picture"></div>
+				<div class="header_top__right f_left"><img src="images/5.png" alt="Picture"></div>
 			</div>
 		</div>
 			
 		<div class="header__bottom">			
 			<nav class="f_left">
-				<ul class="sf-menu">
-					<li class="current bg_none"><a class="reg let" href="index.html">Главная</a></li>
-					<li><a class="reg let" href="index_products.html">Продукты</a></li>
-					<li><a class="reg let" href="index_testimonials.html">Отзывы</a></li>
-					<li><a class="reg let" href="index_news.html">Новости</a></li>
-					<li><a class="reg let" href="index-4.html">Видео</a></li>
-					<li><a class="reg let" href="index-5.html">Загрузки</a></li>
-					<li><a class="reg let" href="index_about.html">О нас</a></li>
-					<li><a class="reg let" href="index-6.html">Контакты</a></li>
+				<ul class="sf-menu reg">
+					<li class="current"><a href="index.html">Главная</a></li>
+					<li><a href="index_products.html">Продукты</a></li>
+					<li><a href="index_testimonials.html">Отзывы</a></li>
+					<li><a href="index_news.html">Новости</a></li>
+					<li><a href="video.html">Видео</a></li>
+					<li><a href="downloads.html">Загрузки</a></li>
+					<li><a href="index_about.html">О нас</a></li>
+					<li><a href="contact.html">Контакты</a></li>
 				</ul>
-			
 			</nav>
 			<form id="search_form">
 				<input type="text" class="search_text">
@@ -69,7 +62,7 @@
 <!--==============================content================================-->
     <section id="content">
 		<div class="wrapper">
-			<div class="sitebar f_left sitebar__box text">
+			<div class="sidebar f_left sidebar__box text">
 				
 				<ul class="list1">
 					<li><a href="#"><span class="list1_item">smart</span><img src="images/7.png" alt="Picture"><span class="list1_link lite_green">toolbox</span></a></li>
@@ -89,7 +82,7 @@
 					<a href="#"><img src="images/10.jpg" alt="Picture"></a>
 				</div >
 				
-				<div class="border_bottom mr_sitebar">
+				<div class="border_bottom mr_sidebar">
 					<h4 class="title1 pd_top pad1">Отличительные признаки,<br>которые видны сразу</h4>
 					<ul class="list2">
 						<li class="img">Отмеченное наградами</li>
@@ -146,7 +139,7 @@
                         <p class="main_obzor_p">Сегодня более 1000 компаний используют программное обеспечение «Смарт – Билдер» для проектирования душевых, витрин,
 						перегородок, панелей из стекла над умывальной раковиной, поручней, ограждений и заграждений для бассейнов.</p>
 						<div class="main_obzor__view al_center">
-						<div class="main_obzor__demo d_in-block"><a href="#">Попробуйте демо версию</a></div>
+						<a class="main_obzor__demo" href="#">Попробуйте демо версию</a>
 						<div><a class="font_style2 link_style1 link_style9 " href="#">Организуйте бесплатный просмотр демонстрационной версии программного обеспечения 
 						«Смарт – Билдер», отмеченного наградами </a></div>
 						</div>
@@ -280,23 +273,67 @@
 								</ul>
 							</div>
 						</div>
-						<div class="p9"><a href="#ancor" class="link_style m_left_zero">назад к началу страницы</a></div>
+						<div class="p9"><a href="#" class="link_style m_left_zero">назад к началу страницы</a></div>
 						<h1 class="p5">Анализ отдачи на инвестиции</h1>
 						<p>Цель практически любого бизнеса – найти пути для увеличения прибыли. Используя ‘ABC Glass’ в качестве примера,
 						мы продемонстрируем, как использование программного обеспечения Smart-Builder может повысить прибыльность Вашего 
 						бизнеса.</p>
 						
-						<table>
+						<table border="1">
 							<tbody>
-								<tr class="fn_weight"><td></td><td colspan="2">Не используя Smart-Toolbox</td><td colspan="2">Используя Smart-Toolbox</td></tr>
-								<tr class="fn_weight"><td>Ежемесячные цифры</td><td colspan="2">Итого</td><td colspan="2">Итого</td></tr>
-								<tr><td>Обычное количество предложений</td><td colspan="2">60</td><td colspan="2">60</td></tr>
-								<tr><td>Обычная цена предложений</td><td colspan="2">$1,500</td><td colspan="2">$1,520</td></tr>
-								<tr><td>Обычное количество полученных работ</td><td>40%</td><td>$36,000</td><td>45%</td><td>$41,040</td></tr>
-								<tr><td>Количество дополнительных предложений</td><td></td><td></td><td>10</td><td></td></tr>
-								<tr><td>Цена дополнительных предложений</td><td></td><td></td><td>$1,650</td><td></td></tr>
-								<tr><td>Количество дополнительно полученных работ</td><td></td><td></td><td>20%</td><td>$3,300</td></tr>
-								<tr><td>Общая стоимость работ</td><td></td><td>$36,000</td></td><td>$44,340</td></tr>
+								<tr class="fn_weight">
+									<td colspan="3">Не используя Smart-Toolbox</td>
+									<td colspan="2">Используя Smart-Toolbox</td>
+								</tr>
+								<tr class="fn_weight">
+									<td>Ежемесячные цифры</td>
+									<td></td><td>Итого</td>
+									<td></td><td>Итого</td>
+								</tr>
+								<tr>
+									<td>Обычное количество предложений</td>
+									<td colspan="2">60</td><td colspan="2">60</td>
+								</tr>
+								<tr>
+									<td>Обычная цена предложений<sup><a href="#">[1]</a></sup></td>
+									<td colspan="2">$1,500</td>
+									<td colspan="2">$1,520</td>
+								</tr>
+								<tr>
+									<td>Обычное количество полученных работ<sup><a href="#">[2]</a></sup></td>
+									<td>40%</td>
+									<td>$36,000</td>
+									<td>45%</td>
+									<td>$41,040</td>
+								</tr>
+								<tr>
+									<td>Количество дополнительных предложений<sup><a href="#">[3]</a></sup></td>
+									<td></td>
+									<td></td>
+									<td>10</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Цена дополнительных предложений<sup><a href="#">[4]</a></sup></td>
+									<td></td>
+									<td></td>
+									<td>$1,650</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>Количество дополнительно полученных работ</td>
+									<td></td>
+									<td></td>
+									<td>20%</td>
+									<td>$3,300</td>
+								</tr>
+								<tr>
+									<td>Общая стоимость работ</td>
+									<td></td>
+									<td>$36,000</td>
+									<td></td>
+									<td>$44,340</td>
+								</tr>
 								<tr>
 									<td>Ожидаемая стоимость стекла</td>
 									<td>20%</td>
@@ -305,7 +342,7 @@
 									<td>$8,868</td>
 								</tr>
 								<tr>
-									<td>Отходы стекла</td>
+									<td>Отходы стекла<sup><a href="#">[5]</a></sup></td>
 									<td>3%</td>
 									<td>$216</td>
 									<td>1.5%</td>
@@ -319,14 +356,14 @@
 									<td>$8,868</td>
 								</tr>
 								<tr>
-									<td>Офисный персонал и накладные расходы</td>
+									<td>Офисный персонал и накладные расходы<sup><a href="#">[6]</a></sup></td>
 									<td></td>
 									<td>$10,000</td>
 									<td></td>
 									<td>$10,000</td>
 								</tr>
 								<tr>
-									<td>Время установки при выполении одного заказа</td>
+									<td>Время установки при выполении одного заказа<sup><a href="#">[7]</a></sup></td>
 									<td>8часов</td>
 									<td>$4,800</td>
 									<td>7,8 часов</td>
@@ -334,6 +371,7 @@
 								</tr>
 								<tr>
 									<td>Чистый доход</td>
+									<td></td>
 									<td>$6,584</td>
 									<td></td>
 									<td>$11,206</td>
@@ -368,12 +406,12 @@
 							компьютерным расчетам размеров и стоимости стекла и дополнительного оборудования,
 							централизованного учета, планирования измерений и установки, отслеживания по компьютеру
 							выполняемых заказов на поставку стекла и т.п.</li>
-							<li class							>7.</span> Установочные чертежи обеспечивают предоставление установщикам целостной и точной
+							<li class="list7_item"><span class="letter_color">7.</span> Установочные чертежи обеспечивают предоставление установщикам целостной и точной
 							информации по тем позициям, которые они должны доставить на место установки и снижают
 							необходимость повторных визитов или телефонных звонков в офис и из офиса.</li>
 						</ul>
 						<div class="p9"><a href="#ancor" class="link_style m_left_zero ">назад к началу страницы</a></div>
-						<div><a class="link_style1 link_style8"href="#">Уже сейчас обращайтесь к Smart-Builder для того, чтобы увеличить вашу прибыль</a></div>
+						<div><a class="link_style1 link_style8" href="#">Уже сейчас обращайтесь к Smart-Builder для того, чтобы увеличить вашу прибыль</a></div>
 					</div>	
 						
 						
@@ -381,7 +419,309 @@
 					
 					<!-- Content Panel 3-->
 					<div id="tabs-3">
-						3
+						<p>Здесь Вы найдете перечень того, как можно конфигурировать Smart-Builder для того, чтобы она подходила к Вашим профессиональным потребностям. Здесь мы представляем только некоторые из конфигураций, которые возможны с применением Smart-Builder. Обращайтесь к нам для того, чтобы обговорить Ваши требования.</p>
+						<div class="clearfix sc_links_container">
+							<a href="#sc_1" class="sc_link f_left">
+								Сценарий 1:
+								<span>Специалист-установщик</span>
+							</a>
+							<a href="#sc_3" class="sc_link f_left">
+								Сценарий 3:
+								<span>Поставщик стекла, имеющий<br>несколько филиалов</span>
+							</a>
+							<a href="#sc_2" class="sc_link f_left">
+								Сценарий 2:
+								<span>Поставщик стекла</span>
+							</a>
+							<a href="#sc_4" class="sc_link f_left">
+								Сценарий 4:
+								<span>Дистрибьютор вспомогательного<br>оборудования/Производитель стекла</span>
+							</a>
+						</div>
+						<h2>Специалист-установщик</h2>
+						<p>Проектирует и устанавливает душевые кабины, витрины, ограждения или перила.  Никаких иных инструментов, связанных с продажей или работой с клиентами, не требуется.</p>
+						<section id="sc_1" class="clearfix">
+							<div class="left_column_sc f_left">
+								<div class="grey_container_sc al_center type_2">Клиент</div>
+								<div class="grey_container_sc al_center type_3">Поставщики стекла 
+								и вспомогательного оборудования
+								<div class="arrow_bottom_right"></div>
+								</div>
+								<div class="clearfix">
+									<div class="blue_container_sc al_center type_3 f_right">
+										<div class="arrow_eq"></div>
+										Smart – Сервер - электронный интерфейс данных (произвольно задаваемый)
+										<div class="arrow_top_right">Электронный заказ 
+										с защищенным доступом</div>
+									</div>
+								</div>
+							</div>
+							<div class="right_column_sc f_left">
+								<div class="grey_container_sc al_center">Установщик</div>
+								<div class="blue_container_sc">
+									<div class="arrow_left al_center">Факс, электронная почта и принтер</div>
+									<div class="arrow_left al_center">Демонстрация в формате 3D</div>
+									<div class="arrow_left al_center">Факс, электронная почта и принтер</div>
+									<div class="arrow_left al_center">Стекло - формат обмена данными</div>
+									<div class="al_center">
+										<img src="images/smart_sc_logo.jpg" alt="">
+									</div>
+									<ul class="tags_list al_center clearfix">
+										<li class="blue">Душ</li>
+										<li class="orange">Ветрина</li>
+										<li class="light_purple">Ограждения</li>
+										<li class="purple">Перила</li>
+									</ul>
+									<ul class="list_sc">
+										<li>Быстрое и простое соединение</li>
+										<li>Расчет стоимости стекла и вспомогательного оборудования</li>
+										<li>Профессиональные предложения в формате 3D</li>
+										<li>Полные чертежи стекла</li>
+										<li>Подробные инструкции по установке</li>
+									</ul>
+									<div class="clearfix al_center buttons_sc">
+										<a href="#" class="button_sc f_left l_purple_2">Собственная сеть</a>
+										<a href="#" class="button_sc f_left l_purple_3">Smart- хостинг онлайн</a>
+									</div>
+								</div>
+								<div class="blue_container_sc type_2 al_center">
+									<div class="arrow_top al_center">Импорт</div>
+									Библиотека аппаратного оборудования Smart (произвольно задаваемая) </div>
+							</div>
+						</section>
+						<a href="#" class="go_to_top">назад к началу страницы</a>
+						<h2>Поставщик стекла</h2>
+						<p>Продает или устанавливает Стекла, Душевые, Витрины, Ограждения или Перила. Намерен увеличить продажи и улучшить сам процесс.</p>
+						<section id="sc_2" class="clearfix">
+							<div class="left_column_sc f_left">
+								<div class="grey_container_sc al_center type_2">Клиент</div>
+								<div class="grey_container_sc al_center type_3">Поставщики стекла 
+								и вспомогательного оборудования
+								<div class="arrow_bottom_right"></div>
+								</div>
+								<div class="clearfix">
+									<div class="blue_container_sc al_center type_3 f_right">
+										<div class="arrow_eq"></div>
+										Smart – Сервер - электронный интерфейс данных (произвольно задаваемый)
+										<div class="arrow_top_right">Электронный заказ 
+										с защищенным доступом</div>
+									</div>
+								</div>
+							</div>
+							<div class="right_column_sc f_left">
+								<div class="grey_container_sc al_center">Поставщик стекла</div>
+								<div class="green_container_sc">
+									<div class="arrow_left al_center">Факс, электронная почта и принтер</div>
+									<div class="arrow_left al_center">Демонстрация в формате 3D</div>
+									<div class="arrow_left al_center">Факс, электронная почта и принтер</div>
+									<div class="arrow_left al_center">Стекло - формат обмена данными</div>
+									<div class="al_center">
+										<img src="images/green_sc_logo.jpg" alt="">
+									</div>
+									<ul class="tags_list al_center clearfix">
+										<li class="blue">Душ</li>
+										<li class="orange">Ветрина</li>
+										<li class="light_purple">Ограждения</li>
+										<li class="purple">Перила</li>
+									</ul>
+									<ul class="list_sc">
+										<li>Продажа стекла и процесс обработки</li>
+										<li>Гибкие предложения в формате 3D</li>
+										<li>Планирование посещения – легко</li>
+										<li>Заказы на работы и покупки</li>
+										<li>Депозиты, выставление счетов и учет</li>
+										<li>Полная база данных о клиентах</li>
+										<li>Анализ прогрессивных продаж</li>
+									</ul>
+									<div class="clearfix al_center buttons_sc">
+										<a href="#" class="button_sc f_left l_purple_2">Собственная сеть</a>
+										<a href="#" class="button_sc f_left l_purple_3">Smart- хостинг онлайн</a>
+									</div>
+								</div>
+								<div class="blue_container_sc type_2 al_center">
+									<div class="arrow_top al_center">Импорт</div>
+									Библиотека аппаратного оборудования Smart (произвольно задаваемая) </div>
+							</div>
+						</section>
+						<a href="#" class="go_to_top">назад к началу страницы</a>
+						<h2>Поставщик стекла, имеющий несколько филиалов</h2>
+						<p>Организация нескольких разнообразных филиалов. Продажа стекла, душевых кабин, витрин, ограждений или перил.</p>
+						<section id="sc_3" class="p_bot_zero">
+							<div class="clearfix">
+								<div class="left_column_sc f_left"></div>
+								<div class="right_column_sc f_left">
+									<div class="grey_container_sc al_center">Клиенты</div>
+								</div>
+							</div>
+							<div class="grey_container_sc al_center">Поставщики стекла, имеющие несколько филиалов/установщики
+								<div class="arrow_top_sc3_right">Факс, электронная почта и принтер
+									<div class="arrow_right"></div>
+								</div>
+							</div>
+							<div class="clearfix">
+								<div class="left_column_sc_50 f_left">
+									<div class="or">или</div>
+									<div class="blue_container_sc">
+										<div class="al_center">
+											<img src="images/smart_sc_logo.jpg" alt="">
+										</div>
+										<ul class="tags_list al_center clearfix">
+											<li class="blue">Душ</li>
+											<li class="orange">Ветрина</li>
+											<li class="light_purple">Ограждения</li>
+											<li class="purple">Перила</li>
+										</ul>
+										<ul class="list_sc">
+											<li>Размеры стекла, список оборудования, определение стоимости</li>
+											<li>Ценовое предложение с точными  чертежами 
+											в формате 3D</li>
+											<li>Отпечатанный или введенный пояснительный чертеж (схема) стекла</li>
+											<li>Всеобъемлющая инструкция по установке</li>
+										</ul>
+										<div class="clearfix al_center buttons_sc">
+											<a href="#" class="button_sc f_left l_purple_2">Собственная сеть</a>
+											<a href="#" class="button_sc f_left l_purple_3">Smart- хостинг онлайн</a>
+										</div>
+									</div>
+									<div class="layer_2"></div>
+									<div class="layer_3"></div>
+									<div class="blue_container_sc n_mh type_4 al_center">
+										Smart – Сервер - электронный интерфейс данных 
+										<div class="rotate_arrow"></div>
+										<div class="bc_item_1 al_center">Размещение заказа</div>
+										<div class="bc_item_2 al_center">
+											Определение стоимости и информация
+										</div>
+										<div class="bc_item_3 al_center">Надежная электронная связь с немедленным подтверждением получения и расчетом стоимости</div>
+									</div>
+								</div>
+								<div class="right_column_sc_50 f_left">
+									<div class="green_container_sc">
+										<div class="al_center">
+											<img src="images/green_sc_logo.jpg" alt="">
+										</div>
+										<ul class="tags_list al_center clearfix">
+											<li class="blue">Душ</li>
+											<li class="orange">Ветрина</li>
+											<li class="light_purple">Ограждения</li>
+											<li class="purple">Перила</li>
+										</ul>
+										<ul class="list_sc">
+											<li>Прогрессивное гибкое ценообразование</li>
+											<li>Планирование посещения в удобное время</li>
+											<li>Заказ стекла и отслеживание выполнения заказа</li>
+											<li>Управление отношениями с клиентами и управление сбытом (продажами)</li>
+										</ul>
+										<div class="clearfix al_center buttons_sc">
+											<a href="#" class="button_sc f_left l_purple_2">Собственная сеть</a>
+											<a href="#" class="button_sc f_left l_purple_3">Smart- хостинг онлайн</a>
+										</div>
+									</div>
+									<div class="layer_2"></div>
+									<div class="layer_3"></div>
+									<div class="blue_container_sc al_center n_mh">
+										Импортер вспомогательного оборудования Smart
+										<div class="arrow_top_2"></div>
+										<div class="arrow_top_left_2"></div>
+									</div>
+									<div class="grey_container_sc n_mh al_center m_bot_zero">
+										Центральный офис – 
+										реализация/производство<div class="arrow_top_2"></div>
+										<div class="arrow_bottom_2"></div>
+									</div>
+									<div class="green_container_sc al_center m_bot_zero n_mh">
+										Централизованная база данных Smart-Toolbox
+									</div>
+									<div class="blue_container_sc al_center n_mh">
+										Внутренние системы
+										<ul class="list_sc al_left fw_normal">
+											<li>Получение электронных заказов</li>
+											<li>DFX (формат обмена данными) файлы для производства стекла</li>
+											<li>Интеграция производства</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+						<a href="#" class="go_to_top">назад к началу страницы</a>
+						<h2>Дистрибьютор вспомогательного оборудования или производитель стекла</h2>
+						<p>Производит или продает дополнительное оборудование или стекло. Хочет помогать клиентам с проектированием, продажей и установкой Душевых, Витрин, Ограждений или Перил.</p>
+						<section id="sc_4" class="clearfix p_bot_zero">
+							<div class="left_column_sc f_left">
+								<div class="grey_container_sc al_center type_5">Конечные потребители</div>
+								<div class="grey_container_type_6">
+									<div class="grey_container_sc type_6 al_center">Установщики/ продавцы</div>
+									<div class="grey_container_sc type_6"></div>
+									<div class="grey_container_sc type_6"></div>
+									<div class="gc_item_1 al_center">Факс, электронная почта и принтер</div>
+									<div class="gc_item_2 al_center">
+										<div class="custom_arrow_top"></div>
+										Демонстрация в формате 3D
+									</div>
+								</div>
+								<div class="blue_container_sc type_5 al_center">
+									Smart – Сервер - электронный интерфейс данных 
+									(произвольно задаваемый)
+									<div class="bc_item_4">
+										Размещение заказа
+									</div>
+									<div class="bc_item_5">
+										<div class="custom_arrow_top"></div>
+										Определение стоимости и информация
+									</div>
+									<div class="bc_item_6">
+										Надежная электронная связь с немедленным подтверждением получения и расчетом стоимости
+										<div class="custom_arrow_bottom"></div>
+									</div>
+								</div>
+							</div>
+							<div class="right_column_sc f_right">
+								<div class="light_purple_container_sc al_center n_mt">
+									Smart-Hosting
+									<ul class="list_sc">
+										<li>Доступно он-лайн</li>
+										<li>Доступ с работы, из дома, вне работы или дома, во время путешествия </li>
+									</ul>
+								</div>
+								<div class="blue_container_sc">
+									<div class="eq_arrow al_center">Подключение к Сети</div>
+									<div class="al_center">Многосайтовая система</div>
+									<div class="al_center">
+										<img src="images/smart_sc_logo.jpg" alt="">
+									</div>
+									<ul class="tags_list al_center clearfix">
+										<li class="blue">Душ</li>
+										<li class="orange">Ветрина</li>
+										<li class="light_purple">Ограждения</li>
+										<li class="purple">Перила</li>
+									</ul>
+									<ul class="list_sc">
+										<li>База данных, состоящая из нескольких исходных файлов для многочисленных клиентов</li>
+										<li>Централизованная поддержка</li>
+										<li>Быстрый и простой интерфейс</li>
+										<li>Расчет стоимости стекла и дополнительного оборудования</li>
+										<li>Коммерческое предложение, содержащее профессиональные чертежи в формате 3D</li>
+										<li>Полные пояснительные чертежи (схемы) стекла</li>
+										<li>Подробные инструкции по установке</li>
+									</ul>
+								</div>
+								<div class="grey_container_sc al_center type_4 n_mt">
+									Продавец/Производитель
+									<div class="custom_arrow_top"></div>
+									<div class="custom_arrow_bottom"></div>
+								</div>
+								<div class="blue_container_sc al_center">
+									Внутренние системы
+									<ul class="list_sc al_left fw_normal">
+										<li>Получение электронных заказов</li>
+										<li>DFX (формат обмена данными) файлы для производства стекла</li>
+										<li>Интеграция производства</li>
+									</ul>
+									<div class="eq_arrow_min"></div>
+								</div>
+							</div>
+						</section>
+						<a href="#" class="go_to_top">назад к началу страницы</a>
 					</div>
 					<!-- Content Panel 4 END-->
 
@@ -394,55 +734,56 @@
 					<ul class="gallery_list">
 						<li class="gallery__list_item wrapper">
 							<div class=" gallery f_left p_left_zero">
-							
-								<a href="#" class="gallery_img"><img src="images/gallery_1.png" alt="Picture"></a>
+								<a href="images/gallery_img.jpg" title="Дуг с фрамугой" data-rel="gallery" class="gallery_img"><img src="images/gallery_1.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Душ с фрамугой</a></h5>
 							</div>
 							<div class=" gallery f_left">
-								<a class="gallery_img" href="#"><img src="images/gallery_2.png" alt="Picture"></a>
+								<a class="gallery_img" data-rel="gallery" title="Душ с transomRaked душ с закругленным шельфа" href="images/gallery_img.jpg"><img src="images/gallery_2.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Душ с transomRaked душ с закругленным шельфа</a></h5>
 							</div>
 							<div class="gallery f_left">
-								<a class="gallery_img" href="#"><img src="images/gallery_3.png" alt="Picture"></a>
+								<a class="gallery_img" data-rel="gallery" title="Душ с системой hydroslide" href="images/gallery_img.jpg"><img src="images/gallery_3.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Душ с системой hydroslide</a></h5>
 							</div>
-							
 						</li>
 						<li class="gallery__list_item wrapper">
 							<div class=" gallery f_left p_left_zero">
-							
-								<a href="#" class="gallery_img"><img src="images/gallery_4.png" alt="Picture"></a>
+								<a href="images/gallery_img.jpg" data-rel="gallery" title="Круглый Магазин" class="gallery_img"><img src="images/gallery_4.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Круглый Магазин</a></h5>
 							</div>
 							<div class=" gallery f_left">
-								<a class="gallery_img" href="#"><img src="images/gallery_5.png" alt="Picture"></a>
+								<a class="gallery_img" data-rel="gallery" title="Витрина с СИБ панелей" href="images/gallery_img.jpg"><img src="images/gallery_5.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Витрина с СИБ панелей</a></h5>
 							</div>
 							<div class="gallery f_left">
-								<a class="gallery_img" href="#"><img src="images/gallery_6.png" alt="Picture"></a>
+								<a class="gallery_img" data-rel="gallery" title="Изогнутое стекло витрина" href="images/gallery_img.jpg"><img src="images/gallery_6.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Изогнутое стекло витрина</a></h5>
 							</div>
-							
 						</li>
 						<li class="gallery__list_item wrapper">
 							<div class=" gallery f_left p_left_zero">
-							
-								<a href="#" class="gallery_img"><img src="images/gallery_7.png" alt="Picture"></a>
+								<a href="images/gallery_img.jpg" data-rel="gallery" title="Комплекс Лесница" class="gallery_img"><img src="images/gallery_7.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Комплекс Лесница</a></h5>
 							</div>
 							<div class=" gallery f_left">
-								<a class="gallery_img" href="#"><img src="images/gallery_8.png" alt="Picture"></a>
+								<a class="gallery_img" data-rel="gallery" title="Грановитая балюстрада" href="images/gallery_img.jpg"><img src="images/gallery_8.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Грановитая балюстрада</a></h5>
 							</div>
 							<div class="gallery f_left">
-								<a class="gallery_img" href="#"><img src="images/gallery_9.png" alt="Picture"></a>
+								<a class="gallery_img" data-rel="gallery" title="Двухместная лестница" href="images/gallery_img.jpg"><img src="images/gallery_9.png" alt="Picture"></a>
 								<h5 class="gallery_title"><a href="#">Двухместная лестница</a></h5>
 							</div>
-							
 						</li>
-						
 					</ul>
-						4
+					<ul class="pagination_list clearfix">
+						<li class="f_left"><a href="#">&#171;</a></li>
+						<li class="f_left active"><a href="#">1</a></li>
+						<li class="f_left"><a href="#">2</a></li>
+						<li class="f_left"><a href="#">3</a></li>
+						<li class="f_left"><a href="#">4</a></li>
+						<li class="f_left"><a href="#">&#187;</a></li>
+					</ul>
+					<p>Присылайте Ваши самые безумные разработки для того, чтобы мы могли показать их в нашей следующей галерее, на наш электронный адрес: <a href="mailto:#">info@smart-builder.com</a>.</p>
 				</div>
 					<!-- Content Panel 4 END-->
 					
@@ -461,5 +802,91 @@
 		
     </footer>
   </div>
+  <div class="popup_wrap">
+  	<div class="popup">
+  		<h5 class="al_center b_color">Заполните пожалуйста следующую форму.</h5>
+  		<form class="test_product">
+  			<ul>
+  				<li>
+  					<label for="name">Имя</label>
+  					<input type="text" name="name" id="name">
+  				</li>
+  				<li>
+  					<label for="surename">Фамилия</label>
+  					<input type="text" class="invalid" name="surename" id="surename">
+  					<span class="message_container">Максимальное количество символов 40</span>
+  				</li>
+  				<li>
+  					<label for="company_name">Название компании</label>
+  					<input type="text" name="company_name" id="company_name">
+  				</li>
+  				<li>
+  					<label for="city">Город</label>
+  					<input type="text" name="city" id="city">
+  				</li>
+  				<li>
+  					<label for="email">Email</label>
+  					<input type="email" class="valid" name="email" id="email">
+  					<span class="message_container">email проверен</span>
+  				</li>
+  				<li>
+  					<label for="phone">Телефон</label>
+  					<input type="text" name="phone" id="phone">
+  					<span class="message_container">Формат<br>+7 123 456 78 90</span>
+  				</li>
+  				<li class="products">
+  					<label>Продукт</label>
+  					<div class="p_wrap">
+  						<ul>
+  							<li>
+  								<input type="checkbox" name="smart_shower" id="smart_shower">
+  								<label for="smart_shower">Smart-Shower(Showers)</label>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="smart_railing" id="smart_railing">
+  								<label for="smart_railing">Smart-Railing(Rilings)</label>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="smart_splashback" id="smart_splashback">
+  								<label for="smart_splashback">Smart-Splashback(Splashbacks)</label>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="smart_hosting" id="smart_hosting">
+  								<label for="smart_hosting">Smart-Hosting(Managed Hostings)</label>
+  							</li>
+  						</ul>
+  						<ul>
+  							<li>
+  								<input type="checkbox" name="smart_shopfront" id="smart_shopfront">
+  								<label for="smart_shopfront">Smart-Shopfront(Shopfronts)</label>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="smart_balustrade" id="smart_balustrade">
+  								<label for="smart_balustrade">Smart-Balustrade(Balustrades)</label>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="smart_toolbox" id="smart_toolbox">
+  								<label for="smart_toolbox">Smart-Toolbox(Sales Managemend)</label>
+  							</li>
+  							<li>
+  								<input type="checkbox" name="custom" id="custom">
+  								<label for="custom">Custom software development</label>
+  							</li>
+  						</ul>
+  					</div>
+				</li>
+				<li>
+  					<label for="comment" class="not_required">Комментарий</label>
+  					<textarea id="comment" name="comment"></textarea>
+  					<span class="form_info"><span class="not_required"></span> - не обязательное для заполнения поле</span>
+  				</li>
+  			</ul>
+  			<input type="submit" value="Отправить">
+  		</form>
+  		<button class="close_button"></button>
+  	</div>
+  </div>
+  <script src="js/jquery.fancybox-1.3.4.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
 </body>
 </html>

@@ -11,20 +11,22 @@
 .main_obzor_p{
 	margin-bottom:25px;
 }
-.main_obzor__demo{
-	background:#057ec3;
-	padding:10px 60px 10px 60px;
-	border:1px solid #0061b7;
-	border-radius:5px;
-	margin-bottom:5px;
-}
 .main_obzor__view{
 	padding-bottom:65px;
 }
-.main_obzor__demo a{
+.main_obzor__demo{
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
 	color:#fff;
 	font:20px Arial;
-	padding:20px 13px 10px 10px;
+	padding:10px;
+	display:inline-block;
+	border-radius:5px;
+	margin-bottom:10px;
+	background:url("../images/button_gradient.jpg") repeat-x;
+	border:1px solid #0061b7;
+	min-width:375px;
+	text-shadow:0 -1px 1px rgba(0,0,0,0.4);
 }
 .main_obzor_img{
 	margin-top:20px;
@@ -155,7 +157,7 @@ h5.gallery_title a:hover{
 }
 .link_news_item{
 	padding-left:10px;
-	background:url(../images/news_10.png)0 5px no-repeat;
+	background:url(../images/news_10.png)0 4px no-repeat;
 }
 .container_news_list_item2{
 	padding:10px 0 2px 0;

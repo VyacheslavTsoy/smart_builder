@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if IE 8]><html class="ie8"><![endif]-->
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="ru"><!--<![endif]>-->
 <head>
     <title>Home</title>
     <meta name = "format-detection" content = "telephone=no" />
@@ -8,7 +10,6 @@
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/superfish.js"></script>
 	 <script type="text/javascript" src="js/tabs.js"></script>
 	 <script src="js/script.js"></script>
 	 <script type="text/javascript">
@@ -16,16 +17,8 @@
 			$( "#tabs" ).tabs();
 		});
 	 </script>
-	<!--[if lt IE 8]>
-   <div style=' clear: both; text-align:center; position: relative;'>
-     <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-       <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-    </a>
-  </div>
-<![endif]-->
     <!--[if lt IE 9]>
-   	<script type="text/javascript" src="js/html5.js"></script>
-    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+   		<script type="text/javascript" src="js/html5.js"></script>
     <![endif]-->
 </head>
 <body>
@@ -46,15 +39,15 @@
 			
 		<div class="header__bottom">			
 			<nav class="f_left">
-				<ul class="sf-menu">
-					<li class="current bg_none"><a class="reg let" href="index.html">Главная</a></li>
-					<li><a class="reg let" href="index_products.html">Продукты</a></li>
-					<li><a class="reg let" href="index_testimonials.html">Отзывы</a></li>
-					<li><a class="reg let" href="index_news.html">Новости</a></li>
-					<li><a class="reg let" href="index-4.html">Видео</a></li>
-					<li><a class="reg let" href="index-5.html">Загрузки</a></li>
-					<li><a class="reg let" href="index_about.html">О нас</a></li>
-					<li><a class="reg let" href="index-6.html">Контакты</a></li>
+				<ul class="sf-menu reg">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="index_products.html">Продукты</a></li>
+					<li><a href="index_testimonials.html">Отзывы</a></li>
+					<li><a href="index_news.html">Новости</a></li>
+					<li><a href="video.html">Видео</a></li>
+					<li><a href="downloads.html">Загрузки</a></li>
+					<li class="current"><a href="index_about.html">О нас</a></li>
+					<li><a href="contact.html">Контакты</a></li>
 				</ul>
 			
 			</nav>
@@ -69,7 +62,7 @@
 <!--==============================content================================-->
     <section id="content">
 		<div class="wrapper">
-			<div class="sitebar f_left sitebar__box text">
+			<div class="sidebar f_left sidebar__box text">
 				
 				<ul class="list1">
 					<li><a href="#"><span class="list1_item">smart</span><img src="images/7.png" alt="Picture"><span class="list1_link lite_green">toolbox</span></a></li>
@@ -89,7 +82,7 @@
 					<a href="#"><img src="images/10.jpg" alt="Picture"></a>
 				</div >
 				
-				<div class="border_bottom mr_sitebar">
+				<div class="border_bottom mr_sidebar">
 					<h4 class="title1 pd_top pad1">Отличительные признаки,<br>которые видны сразу</h4>
 					<ul class="list2">
 						<li class="img">Отмеченное наградами</li>
